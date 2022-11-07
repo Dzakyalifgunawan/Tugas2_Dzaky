@@ -1,0 +1,214 @@
+.navbar {
+    background-color: cornflowerblue;
+}
+
+.logo {
+    border-radius: 40%;
+    width: 50px;
+}
+
+footer {
+    background-color: black;
+    padding: 29px;
+}
+
+footer>p {
+    color: white;
+}
+
+.home_image {
+    width: 250px;
+    height: 250px;
+    border-radius: 49%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    color:black;
+}
+
+.profile {
+    background-color: dimgrey;
+    height: 100px;
+}
+
+.profile>h3 {
+    text-align: center;
+    color: black;
+}
+
+.profile>p {
+    text-align: center;
+    color: white;
+}
+
+.portofolio2 {
+    text-align: center;
+    background-color: darkslategray;
+    color: white; 
+    padding: 2px; 
+}
+
+.portofolio2:active {
+    background-color: aquamarine;
+    transition: all .10s ease-in-out;
+}
+
+.portofolio_image {
+    width: 140px;
+    height: 140px;
+    border-radius: 49%;
+    flex-direction: row;
+}
+
+.portofolio3 {
+    text-decoration: none;
+}
+
+.myblog2 {
+    background-color: gray;
+    padding: 10px;
+}
+
+.myblog2:active {
+    background-color: aquamarine;
+    transition: all .10s ease-in-out;
+}
+
+
+.myblog3 {
+    text-decoration: none;
+}
+
+.myblog2>p {
+    text-align: center;
+    color: white;
+}
+
+.myblog2>h3 {
+    text-align: center;
+    color: white;
+}
+
+.portofolio {
+    background-color: dimgray;
+}
+
+.container {
+    width: 1150px;
+    height: 410px;
+    border: 1px solid red;
+    margin: 30px auto ; 
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+}
+
+.box {
+    width: 350px;
+    height: 350px;
+    padding: 0px;
+    border: 1px blue solid;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.box img {
+    width: 348px;
+    height: 348px;
+    border-radius: 9px;
+}
+
+.box>p {
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.box>p>a {
+    text-decoration: none;
+}
+
+.container>p {
+    text-align: left;
+    margin-right: 100px;
+    padding: 130px;
+} 
+
+.iphone {
+    background-color:skyblue;
+}
+
+.iphone>img {
+    width: 40em;
+    margin-left: 350px;
+}
+
+.iphone>video {
+    margin-left: 350px;
+}
+
+.iphone>audio {
+    width: 630px;
+    padding: 10px;
+    margin-left: 350px;
+}
+
+.samsung {
+    background-color: coral;    
+}
+
+.samsung>video {
+    margin-left: 350px;    
+}
+
+.samsung>audio {
+    width: 630px;
+    padding: 10px;
+    margin-left: 350px;
+}
+
+.samsung>img {
+    width: 40em;
+    margin-left: 350px;
+}
+
+.download {
+    background-color: olivedrab;
+}
+
+.container1 {
+    width: 1200px;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;      
+}
+
+.coloumn {
+    width: 500px;
+    padding: 10px;
+    justify-content: flex-start; 
+    border: 1px solid rgb(103, 100, 100);
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+  
+.coloumn>img {
+    border-radius: 5%;
+    width: 300px;
+}
+
+.coloumn>a {
+    margin-left: 50px;
+    text-decoration: none;
+}
+
